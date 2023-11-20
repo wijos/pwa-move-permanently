@@ -1,0 +1,15 @@
+{
+  "name": "app1",
+  "short_name": "app1",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "cute kitten",
+  "icons": [
+    {
+      "src": "/icon_144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
