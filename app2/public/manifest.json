@@ -1,14 +1,23 @@
 {
-  "name": "app1",
-  "short_name": "app1",
-  "start_url": ".",
+  "id": "testapp",
+  "name": "app2",
+  "short_name": "app2",
+  "start_url": "https://test-app2.terrazo.at/",
+  "orientation": "portrait-primary",
   "display": "standalone",
   "background_color": "#fff",
   "description": "cute kitten",
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
   "icons": [
     {
       "src": "/icon_144.png",
       "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "/icon_512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
